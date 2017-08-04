@@ -1666,6 +1666,213 @@
     padding: 5px;
     border: 1px solid #fff;
 }
+
+#contact{
+    position: relative;
+    width: 1200px;
+    height: 235px;
+    margin: 62px auto 0;
+}
+#contact ul li{
+    float: left;
+    position: relative;
+    margin-right: 116px;
+}
+#contact ul li.l1{
+    width: 70px;
+    height: 199px;
+}
+#contact ul li.qrd{
+    width: 270px;
+    height: 178px;
+    background: #f6f6f6;
+    padding-top: 22px;
+}
+#contact ul li.qrd .p1,#contact ul li.qrd .p2,#contact ul li.qrd .p3{
+    float: left;
+}
+#contact ul li.qrd .p1{
+    margin-left: 30px;
+}
+#contact ul li.qrd .p3,#contact ul li.qrd .p2{
+    margin-left: 10px;
+}
+#contact ul li.qrd .p1,#contact ul li.qrd .p2{
+    width: 16px;
+    font-size: 15px;
+    line-height: 17px;
+}
+#contact ul li.qrd .p3{
+    width: 22px;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 24px;
+}
+#contact ul li.qrd .p4{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    line-height: 35px;
+}
+#contact ul li.qrd .p4 a{
+    color: #d2c199;
+}
+#contact ul li.qrd .p4 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 53px;
+    height: 2px;
+    background: #ccc;
+}
+#contact ul li.qrd div.img{
+    position: absolute;
+    top: -32px;
+    right: -32px;
+    width: 122px;
+    height: 122px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+#contact ul li.qrd div.img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#contact ul li.l4{
+    width: 160px;
+    height: 230px;
+    margin-right: 0;
+    margin-top: -32px;
+}
+#contact ul li.l4 i{
+    display: block;
+    width: 109px;
+    height: 109px;
+    background: url(../img/index/index.png) -570px -474px;
+}
+#contact ul li.l4 .p1{
+    margin-top: 20px;
+}
+#contact ul li.l4 .p2{
+    font-size: 20px;
+    font-family: Georgia, "Microsoft Yahei", serif;
+}
+#contact ul li.l4 .p4{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    line-height: 35px;
+}
+#contact ul li.l4 .p4 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 53px;
+    height: 2px;
+    background: #ccc;
+}
+#contact ul li.l4 .p4 a{
+    color: #d2c199;
+}
+#contact .goTop{
+    position: absolute;
+    right: -40px;
+    top: 15px;
+    width: 24px;
+    height: 112px;
+    background: url(../img/index/index.png) 203px -466px;
+    cursor: pointer;
+}
+#footer{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 524px;
+    background: url("../img/index/foot.jpg") top center no-repeat;
+    margin-top: 38px;
+}
+#footer .p1{
+    position: relative;
+    top: 110px;
+    width: 591px;
+    height: 29px;
+    background: url(../img/index/index.png) 897px 407px;
+    margin: 0 auto;
+}
+#footer .p2{
+    width: 116px;
+    height: 23px;
+    background: url(../img/index/index.png) -930px -632px;
+    margin: 165px auto 0;
+    opacity: 1;
+    transition: .8s;
+}
+#footer .p3{
+    position: relative;
+    top: 0;
+    width: 22px;
+    height: 71px;
+    background: url(../img/index/index.png) 158px -81px;
+    margin: 31px auto 0;
+    transition: .8s;
+}
+#footer .p4{
+    position: relative;
+    width: 237px;
+    height: 212px;
+    background: url(../img/index/index.png) -331px -363px;
+    margin: 30px auto 0;
+    top: 0;
+    transition: .8s;
+}
+#footer .qrd{
+    position: absolute;
+    left: 50%;
+    top: 240px;
+    width: 200px;
+    height: 160px;
+    margin-left: -75px;
+    opacity: 0;
+    transition: .8s;
+}
+#footer .qrd .pic{
+    float: left;
+    width: 154px;
+    height: 154px;
+    margin-top: 3px;
+    box-shadow: 0 0 25px #67baeb;
+}
+#footer .qrd .pic img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#footer .qrd .txt{
+    float: right;
+    width: 16px;
+    height: 160px;
+    background: url(../img/index/index.png) 278px -311px;
+}
+#footer .hover{
+    width: 300px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+#footer .hover:hover .p2{
+    opacity: 0;
+}
+#footer .hover:hover .p3{
+    top: -80px;
+}
+#footer .hover:hover .qrd{
+    opacity: 1;
+    top: 220px;
+}
+#footer .hover:hover .p4{
+    top: 40px;
+}
 /*css3动画*/
 @keyframes lineMove {
     from { top: 4px}

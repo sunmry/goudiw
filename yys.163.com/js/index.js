@@ -221,7 +221,7 @@
         var num = 0;
         for (var j = 0,length=newData.length; j < length; j++) {
             if (!i || newData[j].typeX === (i-1) ){
-                $ul.append("<li><p><a href=''>"+newData[j].title+"</a></p><span>"+newData[j].time+"</span></li>");
+                $ul.append("<li><p><a href='javascript:void(0)'>"+newData[j].title+"</a></p><span>"+newData[j].time+"</span></li>");
                 num ++;
                 if (num == 5)break;
             }
@@ -381,7 +381,7 @@
             if ( !i || reg.test(data.type) ){
                 var index = !i?data.type.charAt(data.type.length-1):i-1;
                 $(this).append('<li>' +
-                    '<a href="">' +
+                    '<a href="javascript:void(0)">' +
                         '<i></i> ' +
                         '<p class="mTitle">【<span class="type">'+typeArr[index]+'</span>】&nbsp;'+data.title+'</p> ' +
                         '<p class="author">作者：<span>'+data.author+'</span></p>' +
@@ -421,8 +421,16 @@
     b1.exe();
 })();
 
-
-
+//返回顶部
+(function(){
+    var $goTop = $("#contact").find(".goTop");
+    $goTop.click(function () {
+        //$(document).scrollTop(0);
+        $("body,html").animate({
+            scrollTop : 0
+        },300);
+    });
+})();
 
 
 
