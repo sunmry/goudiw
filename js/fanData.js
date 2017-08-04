@@ -1,6 +1,5 @@
 
-var fanData = {
-	data:[
+var fanData = [
 	{
 		type : 0,
 		url : "img/index/fan/jxtj/1.jpg",
@@ -241,5 +240,4 @@ var fanData = {
 		url : "img/index/fan/gszmj/08.jpg",
 		title : "式神软陶手工！【作者】阿染"
 	}
-]
-};
+];

@@ -2,8 +2,7 @@
 
 
 // 0 - 新手  1 - 式神  2 - 斗技  3 - 玩法  4 - 御魂   5 - 高阶
-var strateData = {
-    data:[
+var strateData = [
     {
         type : "0235",
         title : "逆转的胜利！反击流式神阵容推荐！",
@@ -144,9 +143,7 @@ var strateData = {
         title : "为美腻小姐姐奋斗！平民过【妖刀本】",
         author : "绯蜂"
     }
-]
-}
-    ;
+];
 
 
 

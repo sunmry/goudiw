@@ -6,7 +6,7 @@
 *  3 媒体
 *
 * */
-var newsData = [
+var newData = [
     {
         time : "2017-06-13",
         typeX : 0,

@@ -1,6 +1,4 @@
-var shishenData = {
-  ss:"oo",
-  sData:[
+var shishenData = [
   {	 
     "id": 288,	 
     "level": "SSR",
@@ -544,4 +542,4 @@ var shishenData = {
     "name": "般若",
     "level": "SR"
   }
-]};
+];
